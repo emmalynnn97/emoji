@@ -9,6 +9,7 @@ const Footer = () => {
         display:'flex',
         justifyContent:'center',
         alignItems:'flex-end',
+        zIndex:2
     }
     const btnStyle={
         textTransform:'uppercase',

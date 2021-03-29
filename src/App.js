@@ -12,15 +12,39 @@ function App() {
         <Message sender content='by yung jake Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'/>
         <Message content='current auctions'/>
         <img className='emoji-image' src={punk11} alt="punk 11"/>
-        <Message content='emoji punks 1
-short description short description short description LINK TO OPEN SEA'/>
+        <Message content='emoji punks 1 short description short description short description LINK TO OPEN SEA'/>
         <img className='emoji-image' src={punk12} alt="punk 12"/>
-        <Message sender content='emoji punks 2
-short description short description short description
-LINK TO OPEN SEA
-'/>
+        <Message sender content='emoji punks 2 short description short description short description LINK TO OPEN SEA'/>
+        <Message content='new yungjake project?'/>
+        <Message sender content='emoji punks 2 short description short description short description LINK TO OPEN SEA'/>
+        <Message sender content='yea, shitty emojisyungjake is bringing his art to the hands of his fans and new collectors, with a project called “shitty emojis”   https://opensea.io/collection/shitty-emojis'/>
         <Footer/>
-      </div>
+        <div style={{
+          display:'flex',
+        }}>
+          <img className='emoji-image' src={punk11} alt="punk 11"/>
+          <img className='emoji-image' src={punk12} alt="punk 12"/>
+        </div>
+        <div style={{
+          display:'flex',
+        }}>
+          <img className='emoji-image' src={punk11} alt="punk 11"/>
+          <img className='emoji-image' src={punk12} alt="punk 12"/>
+        </div>
+        <Message content='what are shitty emojis?'/>
+        <Message sender content='they’re a set of 1,000 original pieces done by yungjake on his iphone app emoji.ink.'/>
+        <Message content='how much is a shitty emoji?'/>
+        <Message sender content='PRICING CHART HERE'/>
+        <Message content='when can i get a shitty emoji?'/>
+        <Message sender content='drops start on monday, march 29, at 7PM PST.'/>
+        <Message content='how often will you drop shitty emojis?'/>
+        <Message sender content='every day, join the discord: [LINK]'/>
+        <Message content='are there unique shitty emojis or are they all random?'/>
+        <Message sender content='genesis ultra-shitty is a 1/1. the shittiest are 1/4. pretty shitty emojis are a 1/14. the shitty emoji team has [CHOOSE NAME] 1/40. the final shitty emojis are 991-999, 1/8. and the last shitty emoji will be on auction and is a 1/1.'/>
+        <Message content='what makes up the shitty emojis?'/>
+        <Message sender content='the 1-of shitty emojis are a bit more unique and shitty, and the drop shitty emojis are random but still all unique. there will be emoji make up stats on each random shitty emoji. 
+'/>
+    </div>
       
     </div>
   );
