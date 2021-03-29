@@ -2,14 +2,14 @@ import React from 'react'
 
 const Footer = () => {
     const footerStyle={
-        width:288,
+        width:'100%',
         height:50,
         position:'fixed',
         bottom:0,
         display:'flex',
         justifyContent:'center',
         alignItems:'flex-end',
-        background:'rgba(255,255,255,.6)',
+        background:'rgba(255,255,255,.8)',
         backdropFilter:'blur(4px)'
     }
     const btnStyle={
