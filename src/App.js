@@ -10,7 +10,6 @@ function App() {
       <Nav/>
       <div style={{padding:20,width:'100%',display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
         <Message content='new yungjake project?'/>
-        <Message sender content='emoji punks 2 short description short description short description LINK TO OPEN SEA'/>
         <Message sender content='yea, shitty emojisyungjake is bringing his art to the hands of his fans and new collectors, with a project called “shitty emojis”   https://opensea.io/collection/shitty-emojis'/>
         <Footer/>
         <div style={{
