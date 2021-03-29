@@ -19,8 +19,14 @@ p {
     bottom: 0;
     height: 25px;
   }
-
-
+  a{
+    cursor:pointer;
+  }
+  a:hover{
+    background:rgb(0,111,255);
+    color:white !important;
+    transition:.15s ease-in-out;
+  }
 .from-me {
 	color: white; 
 	background: #0B93F6;
@@ -38,7 +44,7 @@ p {
     background-color: white;
 		border-bottom-left-radius: 10px;
 }
-.from-them, img {
+.from-them, .emoji-image {
 	background: #E5E5EA;
 	color: black;
   align-self: flex-start;

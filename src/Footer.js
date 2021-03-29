@@ -6,10 +6,11 @@ const Footer = () => {
         height:50,
         position:'fixed',
         bottom:0,
-        background:'rgb(237, 236, 242)',
         display:'flex',
         justifyContent:'center',
         alignItems:'flex-end',
+        background:'rgba(255,255,255,.6)',
+        backdropFilter:'blur(4px)'
     }
     const btnStyle={
         textTransform:'uppercase',
