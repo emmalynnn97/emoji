@@ -1,33 +1,29 @@
 import React from 'react'
-
+import discord from './discord.png'
+import buy from './buy.png'
+import twitter from './twitter.png'
 const Footer = () => {
     const footerStyle={
         width:'100%',
-        height:50,
+        height:52,
+        padding:'2em',
         position:'fixed',
         bottom:0,
         display:'flex',
         justifyContent:'center',
-        alignItems:'flex-end',
-        zIndex:2
+        alignItems:'center',
+        zIndex:2,
+        background:'#D6D7DC'
     }
-    const btnStyle={
-        textTransform:'uppercase',
-        border:'2px solid rgb(0,111,255)',
-        color:'#006FFF',
-        padding:'.35em 1em',
-        borderRadius:'4px',
-        fontSize:13,
-        background:'white',
-        marginLeft:3,
-        marginRight:3,
-        textDecoration:'none'
+    const iconStyle={
+        marginLeft:17,
+        marginRight:17
     }
     return (
         <div style={footerStyle}>
-            <a href="https://opensea.io/collection/shitty-emojis" style={btnStyle}>Buy</a>
-            <a style={btnStyle}>Discord</a>
-            <a href="https://twitter.com/yungjake" style={btnStyle}>Twitter</a>
+            <a style={iconStyle}><img src={discord} alt="discord logo"/></a>
+            <a style={iconStyle} href="https://opensea.io/collection/shitty-emojis"><img src={buy} alt="buy logo"/></a>
+            <a style={iconStyle} href="https://twitter.com/yungjake"><img src={twitter} alt="twitter icon"/></a>
         </div>
     )
 }
