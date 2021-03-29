@@ -9,8 +9,6 @@ const Footer = () => {
         display:'flex',
         justifyContent:'center',
         alignItems:'flex-end',
-        background:'rgba(255,255,255,.8)',
-        backdropFilter:'blur(4px)'
     }
     const btnStyle={
         textTransform:'uppercase',
@@ -18,13 +16,17 @@ const Footer = () => {
         color:'#006FFF',
         padding:'.35em 1em',
         borderRadius:'4px',
-        fontSize:13
+        fontSize:13,
+        background:'white',
+        marginLeft:3,
+        marginRight:3,
+        textDecoration:'none'
     }
     return (
         <div style={footerStyle}>
-            <a style={btnStyle}>Buy</a>
+            <a href="https://opensea.io/collection/shitty-emojis" style={btnStyle}>Buy</a>
             <a style={btnStyle}>Discord</a>
-            <a style={btnStyle}>Twitter</a>
+            <a href="https://twitter.com/yungjake" style={btnStyle}>Twitter</a>
         </div>
     )
 }
