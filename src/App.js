@@ -42,7 +42,21 @@ function App() {
         <Message content='are there unique shitty emojis or are they all random?'/>
         <Message sender content='genesis ultra-shitty is a 1/1. the shittiest are 1/4. pretty shitty emojis are a 1/14. the shitty emoji team has [CHOOSE NAME] 1/40. the final shitty emojis are 991-999, 1/8. and the last shitty emoji will be on auction and is a 1/1.'/>
         <Message content='what makes up the shitty emojis?'/>
-        <Message sender content='the 1-of shitty emojis are a bit more unique and shitty, and the drop shitty emojis are random but still all unique. there will be emoji make up stats on each random shitty emoji. 
+        <Message sender content='the 1-of shitty emojis are a bit more unique and shitty, and the drop shitty emojis are random but still all unique. there will be emoji make up stats on each random shitty emoji.'/>
+        <Message content='is this yungjakes first nft project?'/>
+        <Message sender content='no, yungjake sold his emoji portraits on foundation and zora. 
+kanye - 57 ETH [LINK https://zora.co/yungjake/2206]
+elon - 57 ETH [LINK https://zora.co/yungjake/2208]
+daft punk - 57 ETH [LINK https://zora.co/yungjake/2209]
+yungjake (genesis) - 13.43 ETH LINK [https://foundation.app/yungjake/yungjake-6416]
+billie - 8.8 ETH LINK [https://foundation.app/yungjake/billie-11098]'/>
+<Message content='where can i learn more about yungjake?'/>
+<Message sender content='Received (gray) Message: where can i learn more about yungjake?
+Sent (blue) Message: 
+instagram: https://www.instagram.com/yungjake
+twitter: https://twitter.com/yungjake
+discord: [LINK]
+opensea: [LINK]
 '/>
     </div>
       
