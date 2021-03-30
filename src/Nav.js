@@ -1,6 +1,5 @@
 import React from 'react'
 import jake from './jake.png'
-import arrow from './arrow.png'
 const Nav = () => {
     const navStyle = {
         background: '#F5F5F5',
