@@ -13,7 +13,8 @@ const Footer = () => {
         justifyContent:'center',
         alignItems:'center',
         zIndex:2,
-        background:'#D6D7DC'
+        background:'#D6D7DC',
+        borderTop:'2px solid white'
     }
     const iconStyle={
         marginLeft:17,
