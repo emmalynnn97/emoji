@@ -22,7 +22,7 @@ const Footer = () => {
     }
     return (
         <>
-        <img style={{position:'fixed', bottom:65,zIndex:2, width:'100%'}} src={imessage} alt="imessage"/>
+        <img className='message-img' style={{position:'fixed', bottom:64,zIndex:2, width:'100%'}} src={imessage} alt="imessage"/>
         <div style={footerStyle}>
             <a style={iconStyle}><img src={discord} alt="discord logo"/></a>
             <a style={iconStyle} href="https://opensea.io/collection/shitty-emojis"><img src={buy} alt="buy logo"/></a>
