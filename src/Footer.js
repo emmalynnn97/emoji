@@ -2,7 +2,6 @@ import React from 'react'
 import discord from './discord.png'
 import buy from './buy.png'
 import twitter from './twitter.png'
-import imessage from './imessage.png'
 const Footer = () => {
     const footerStyle={
         width:'100%',
@@ -22,7 +21,7 @@ const Footer = () => {
     }
     return (
         <>
-        <img className='message-img' style={{position:'fixed', bottom:64,zIndex:2, width:'100%'}} src={imessage} alt="imessage"/>
+        <input style={{position:'fixed', bottom:64,zIndex:2, width:'98%',padding:'.5em 1em', borderRadius:'25px', border:'1px solid rgb(197,197,197)'}} placeholder='iMessage' type="text"/>
         <div style={footerStyle}>
             <a style={iconStyle}><img src={discord} alt="discord logo"/></a>
             <a style={iconStyle} href="https://opensea.io/collection/shitty-emojis"><img src={buy} alt="buy logo"/></a>

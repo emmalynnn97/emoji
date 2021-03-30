@@ -3,6 +3,9 @@
   margin:0;
   padding:0;
 }
+.App{
+  overflow:hidden;
+}
 p {
   max-width: 255px;
   word-wrap: break-word;
