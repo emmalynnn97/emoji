@@ -8,6 +8,10 @@ const Nav = () => {
         justifyContent: 'center',
         alignItems: 'flex-start',
         flexDirection: 'column',
+        position:'fixed',
+        zIndex:2,
+        width:'100%',
+        left:0
     }
     const captionStyle = {
         fontSize: 11
@@ -16,7 +20,7 @@ const Nav = () => {
         margin:0,
     }
     return (
-        <div style={navStyle}>
+        <div className='nav' style={navStyle}>
             <div style={{
                 display: 'flex',
                 justifyContent: 'space-between',

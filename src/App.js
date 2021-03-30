@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <div style={{marginBottom:100,padding:20,width:'100%',display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
+      <div style={{marginTop:112,marginBottom:100,padding:20,width:'100%',display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
         <Message content='new yungjake project?'/>
         <Message sender content={`yea, shitty emojisyungjake is bringing his art to the hands of his fans and new collectors, with a project called “shitty emojis” <a href="https://opensea.io/collection/shitty-emojis">https://opensea.io/collection/shitty-emojis</a>`}/>
         <Footer/>
