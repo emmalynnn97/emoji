@@ -24,7 +24,7 @@ p {
   line-height: 24px;
   position: relative;
 	padding: 10px 20px;
-  border-radius: 25px;
+  border-radius: 30px;
 }
 
   p:before, p:after{
