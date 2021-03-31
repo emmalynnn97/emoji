@@ -27,7 +27,7 @@ const Footer = () => {
         <>
             <input className='imessage-text' style={{
                 position: 'fixed', 
-                bottom: 58, 
+                bottom: 52, 
                 zIndex: 2, 
                 width: '98%', 
                 padding: '.5em 1em', 
