@@ -29,12 +29,14 @@ const Nav = () => {
             }}>
                 
             </div>
-            <svg style={{
+           
+<svg style={{
                 position: 'absolute',
                 top: 17,
                 left:13
-            }} width="26" height="34" viewBox="0 0 26 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M10.1893 11.1273L3.1886 17.3091L10.1893 23.4909C16.9052 29.4213 19.6758 30.9146 19.6758 28.6038C19.6758 28.016 17.074 25.2341 13.894 22.422L8.11222 17.3091L13.894 12.1962C17.074 9.38405 19.6758 6.60227 19.6758 6.01438C19.6758 3.70367 16.9052 5.19691 10.1893 11.1273Z" fill="#006FFF"/>
+            }} width="16" height="25" viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="3.12132" y1="13" x2="13" y2="22.8787" stroke="#006FFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="3" y1="12.8787" x2="12.8787" y2="3" stroke="#006FFF" stroke-width="3" stroke-linecap="round"/>
 </svg>
 
             
