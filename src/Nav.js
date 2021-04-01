@@ -11,7 +11,8 @@ const Nav = () => {
         position:'fixed',
         zIndex:2,
         width:'100%',
-        left:0
+        left:0,
+        borderBottom:'1px solid #dbdbdb'
     }
     const captionStyle = {
         fontSize: 11
@@ -32,7 +33,7 @@ const Nav = () => {
            
 <svg style={{
                 position: 'absolute',
-                top: 17,
+                top: 40,
                 left:13
             }} width="16" height="25" viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <line x1="3.12132" y1="13" x2="13" y2="22.8787" stroke="#006FFF" stroke-width="3" stroke-linecap="round"/>
