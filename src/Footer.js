@@ -8,7 +8,7 @@ const Footer = () => {
         position: 'fixed',
         bottom: 0,
         display: 'flex',
-        justifyContent: 'center',
+        justifyContent: 'space-evenly',
         alignItems: 'flex-start',
         zIndex: 2,
         background: '#D6D7DC',
